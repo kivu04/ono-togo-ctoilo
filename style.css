@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    background-color: #fff;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    width: 1100px;
+    height: 3028px;
+}
+
+.header {
+    
+    display: flex;
+    flex-direction: row;
+    margin: 92px 24px 96px;
+    width: 1052px;
+    height: 105px;
+    justify-content: space-between;
+     background-color:#fff;
+    
+}
+
+
+.header__menu-item_active .header__menu-link {
+    text-decoration: none;
+    list-style: none;
+}
+
+.header__menu-list {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    list-style: none;
+    font-size: 18px;
+    font-family: "Raleway";
+    font-style: Regular;
+    color: #000;
+    margin: 44px 26px 39px 34px;
+    
+}
+
+.header__menu-item {
+    list-style: circle;
+}
+
+.header__menu-link {
+    color: #000;
+    font-size: 18px;
+    line-height: 1;
+    font-style: normal;
+}
+
+
+.header__menu-info {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 18px;
+    font-family: "Raleway";
+    font-style: Regular;
+    color: #000;
+}
+
+.header__logo-image {
+    display: flex;
+   align-self: center;
+}
+
+.cover {
+    width: 1100px;
+    height: 757px;
+    background-image: url("./images/flower.png");
+    margin-top: 0px;
+}
+.cover_title {
+    font-size: 100px;
+    font-family: "Raleway";
+    font-style: Regular;
+    color: #fff;
+    margin: 165px 50px 237px;
+    width: 700;
+    letter-spacing: 60px;
+
+}
+
+.accent_span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
