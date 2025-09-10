@@ -3,20 +3,21 @@ body {
     background-color: #fff;
     font-family: "Lobster", sans-serif;
     font-weight: 400;
-    width: 1100px;
-    height: 3028px;
+    
 }
 
 .header {
     
     display: flex;
     flex-direction: row;
-    margin: 92px 24px 96px;
+    margin: 92px auto 96px auto;
     width: 1052px;
     height: 105px;
-    justify-content: space-between;
-     background-color:#fff;
     
+     background-color:#fff;
+     border: 1px solid red;
+    padding: 0px 25px ;
+    align-items: center;
 }
 
 
@@ -34,7 +35,9 @@ body {
     font-family: "Raleway";
     font-style: Regular;
     color: #000;
-    margin: 44px 26px 39px 34px;
+    margin: 0;
+    margin-right: 35px;
+    padding: 0;
     
 }
 
@@ -58,38 +61,91 @@ body {
     font-family: "Raleway";
     font-style: Regular;
     color: #000;
+   
 }
 
 .header__logo-image {
-    display: flex;
-   align-self: center;
+   margin-right: 184px;
 }
 
 .cover {
     width: 1100px;
     height: 757px;
     background-image: url("./images/flower.png");
-    margin-top: 0px;
+    margin: 96px auto 179px auto;
+    border: 1px solid transparent;
+
 }
 .cover_title {
     font-size: 100px;
     font-family: "Raleway";
     font-style: Regular;
     color: #fff;
-    margin: 165px 50px 237px;
+    margin: 165px 50px 147px;
     width: 700;
-    letter-spacing: 60px;
-
+    
+   
+}
+.accent_span-text  {
+    letter-spacing: 0.6em;
 }
 
 .accent_span {
     display: block;
+    margin: 0;
+    letter-spacing: 0.3em;
 }
 
-.text-center {
+.text-center-te {
     text-align: center;
+    letter-spacing: 0.3em;
+}
+
+.text-center-be {
+    text-align: center;
+    letter-spacing: 0.6em;
+}
+
+.text-right-ad {
+    text-align: right;
+    letter-spacing: 0.3em;
 }
 
 .text-right {
     text-align: right;
+    letter-spacing: 0.6em;
+    
+}
+
+.text-right-o {
+    letter-spacing: 0;
+}
+
+.text-accent {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Raleway";
+    font-style: Regular;
+    font-size: 22px;
+    margin-left: 78px;
+    word-spacing: 20px;
+}
+.cover__footer {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    }
+
+.button {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Raleway";
+    font-style: Regular;
+    font-size: 22px;
+    background-color: transparent;
+    height: 51px;
+    width: 256px;
+    border: 1px solid #fff;
+    margin-right: 50px;
+
 }
